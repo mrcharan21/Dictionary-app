@@ -48,7 +48,10 @@ export default function Dictionary() {
 
       {error && <p className="text-red-500 text-center">{error}</p>}
       {data && <WordCard data={data} />}
+
+      <p>Developed by charan </p>
     </div>
+    
   );
 }
 
